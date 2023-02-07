@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/sanjanasethiya_react_profile/static/css/main.e6c13ad2.css",
+    "main.js": "/sanjanasethiya_react_profile/static/js/main.75219b8d.js",
+    "index.html": "/sanjanasethiya_react_profile/index.html",
+    "main.e6c13ad2.css.map": "/sanjanasethiya_react_profile/static/css/main.e6c13ad2.css.map",
+    "main.75219b8d.js.map": "/sanjanasethiya_react_profile/static/js/main.75219b8d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.75219b8d.js"
+  ]
+}
