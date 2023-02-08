@@ -1,0 +1,18 @@
+*
+{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #FAEEE7;
+    border: 5px solid #F8A4B5;
+    width: 100vw;
+    height: 100vh;
+    padding:10px;
+    font-family: 'Merriweather', serif;
+    display:flex;
+    justify-content: center;
+    color:"#25232d",
+}

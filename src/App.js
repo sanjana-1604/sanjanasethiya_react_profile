@@ -1,6 +1,6 @@
 
 import './App.css';
-import Header from './components/Header'
+
 import Homepage from './components/Homepage'
 import Projects from './components/Projects'
 import Projectspage from './components/Projectspage';
@@ -9,11 +9,11 @@ function App() {
   return (
    <>
    
-   <Header />
+ 
    <Homepage />
-   <Projects />
+  {/*  <Projects />
    <Projectspage />
-   <Contactpage />
+   <Contactpage /> */}
    
    
       
