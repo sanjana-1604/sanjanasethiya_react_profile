@@ -7,21 +7,19 @@ function Header() {
       padding: "10px",
       margin: "10px",
       display: "flex",
-      justifyContent: "space-around",
-     
+      justifyContent: "space-around",     
       alignItems: "center",
     },
 
     img: {
-        height: "10vh",
+        height: "80px",
         padding: "10px",
       
     },
     nav: {
         display: "flex",
         justifyContent: "center",
-        alignItems: "center",
-       
+        alignItems: "center",       
         padding: "10px",
     },
     a:

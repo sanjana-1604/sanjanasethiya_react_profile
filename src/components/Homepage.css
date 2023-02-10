@@ -1,0 +1,30 @@
+main{
+display: flex;
+margin:20px;
+justify-content:space-around;
+align-items: center;
+}
+.avatar
+{
+    border-radius: 50%;
+    padding:5px;
+    border: 7px dotted #FA709A;
+   width:400px;
+   height:400px;
+    overflow: hidden;
+}
+.avatar img
+{
+    border-radius: 50%;
+    width:100%;       
+}
+section{
+    margin-right: 40px;
+    width: 60%;
+}
+.heading
+{
+    font-weight:900;
+    font-size: 3rem;
+    padding-bottom: 20px;
+}
