@@ -3,6 +3,7 @@ display: flex;
 margin:20px;
 justify-content:space-around;
 align-items: center;
+
 }
 .avatar
 {
@@ -27,4 +28,11 @@ section{
     font-weight:900;
     font-size: 3rem;
     padding-bottom: 20px;
+}
+.socialmedia
+{
+    padding-left: 20%;
+}
+.socialmedia a:not(:last-child){
+    padding-right: 10px;
 }

@@ -1,4 +1,5 @@
 import logo from "../images/logo.png";
+import { NavLink } from "react-router-dom"
 function Header() {
   const styles = {
     header: {
@@ -29,7 +30,7 @@ function Header() {
         fontSize:"1.25rem",
         textDecoration: "none",
         color:"#25232d",
-        cursor: 'pointer',
+       
     },
   };
   return (
@@ -37,10 +38,10 @@ function Header() {
       <header style={styles.header}>
         <img style={styles.img} src={logo} alt="logo"></img>
         <nav style={styles.nav}>
-            <a style={styles.a} href="#" >About</a>
-            <a style={styles.a} href="#">Resume</a>
-            <a style={styles.a} href="#">Projects</a>
-            <a style={styles.a} href="#">Contact</a>
+            <NavLink style={styles.a} href="#" >About</NavLink>
+            <NavLink style={styles.a} href="#">Resume</NavLink>
+            <NavLink style={styles.a} href="#">Projects</NavLink>
+            <NavLink style={styles.a} href="#">Contact</NavLink>
         </nav>
       </header>
     </>
