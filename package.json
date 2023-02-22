@@ -1,8 +1,9 @@
 {
+  "homepage": "https://sanjana-1604.github.io/sanjanasethiya_react_profile/",
   "name": "sanjana_react_profile",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://sanjana-1604.github.io/sanjanasethiya_react_profile/",
+  
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.3.0",
     "@fortawesome/free-solid-svg-icons": "^6.3.0",

@@ -1,4 +1,4 @@
-import Header from './Header'
+import Header from '../components/Header'
 import avatar from "../images/avatar.png"
 import linkedin from '../images/linkedin.png'
 import github from '../images/github.png'
@@ -16,9 +16,9 @@ function Homepage()
       <h1 className="heading">Hello I'm Sanjana Sethiya  </h1>
       <h3>Born and bought up in Inda ,currently based in Coventry. Environmentalist and food lover.</h3>
       <div className="socialmedia">
-   <NavLink href="www.linkedin.com/in/sanjanasethiya-webdeveloper"><img src={linkedin} alt="avatar" /></NavLink>
-   <NavLink href="https://github.com/sanjana-1604"><img src={github} alt="avatar" /></NavLink>
-   <NavLink href ="mailto:porwal.sanjana@gmail.com"><img src={email} alt="avatar" /></NavLink>
+   <NavLink to="https://www.linkedin.com/in/sanjanasethiya-webdeveloper"><img src={linkedin} alt="avatar" /></NavLink>
+   <NavLink to="https://github.com/sanjana-1604"><img src={github} alt="avatar" /></NavLink>
+   <NavLink to ="mailto:porwal.sanjana@gmail.com"><img src={email} alt="avatar" /></NavLink>
    <NavLink><img src={resume} alt="avatar" /></NavLink>
   
    </div>     
