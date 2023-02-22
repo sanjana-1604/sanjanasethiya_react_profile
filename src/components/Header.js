@@ -1,5 +1,6 @@
 import logo from "../images/logo.png";
 import { NavLink } from "react-router-dom"
+import Homepage from "../pages/Homepage"
 function Header() {
   const styles = {
     header: {
@@ -36,12 +37,12 @@ function Header() {
   return (
     <>
       <header style={styles.header}>
-        <img style={styles.img} src={logo} alt="logo"></img>
+        <img style={styles.img} src={logo} alt="logo" onClick= {()=>{<Homepage />}}></img>
         <nav style={styles.nav}>
-            <NavLink style={styles.a} href="#" >About</NavLink>
-            <NavLink style={styles.a} href="#">Resume</NavLink>
-            <NavLink style={styles.a} href="#">Projects</NavLink>
-            <NavLink style={styles.a} href="#">Contact</NavLink>
+            <NavLink style={styles.a} to="/about" >About</NavLink>
+            <NavLink style={styles.a} to="#">Resume</NavLink>
+            <NavLink style={styles.a} to="#">Projects</NavLink>
+            <NavLink style={styles.a} to="#">Contact</NavLink>
         </nav>
       </header>
     </>

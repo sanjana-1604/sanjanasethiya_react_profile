@@ -1,21 +1,22 @@
 
 import './App.css';
 import { Routes, Route } from "react-router-dom";
-import Homepage from './components/Homepage'
-import Projects from './components/Projects'
-import Projectspage from './components/Projectspage';
-import Contactpage from './components/Contactpage';
+import Homepage from './pages/Homepage'
+import Aboutpage from './pages/Aboutpage'
+import Projectspage from './pages/Projectspage';
+import Contactpage from './pages/Contactpage';
 function App() {
   return (
    <>
    
  
-   <Homepage />
-  {/*  <Projects />
-   <Projectspage />
-   <Contactpage /> */}
    
-   
+   <Routes>
+    <Route path="/" element = { <Homepage />} />
+    <Route path="/projectspage" element = { <Projectspage />} />
+    <Route path="/contactpage" element = { <Contactpage />} />
+    <Route path="/about" element = { <Aboutpage />} />
+   </Routes>
       
    </>
   );
