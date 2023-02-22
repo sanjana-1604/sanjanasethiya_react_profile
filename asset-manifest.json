@@ -1,13 +1,15 @@
 {
   "files": {
-    "main.css": "/sanjanasethiya_react_profile/static/css/main.e6c13ad2.css",
-    "main.js": "/sanjanasethiya_react_profile/static/js/main.75219b8d.js",
+    "main.css": "/sanjanasethiya_react_profile/static/css/main.783debc6.css",
+    "main.js": "/sanjanasethiya_react_profile/static/js/main.d31c854c.js",
+    "static/media/avatar.png": "/sanjanasethiya_react_profile/static/media/avatar.4ff34c25b1433c27298b.png",
+    "static/media/logo.png": "/sanjanasethiya_react_profile/static/media/logo.6be00b86150c8a9f932c.png",
     "index.html": "/sanjanasethiya_react_profile/index.html",
-    "main.e6c13ad2.css.map": "/sanjanasethiya_react_profile/static/css/main.e6c13ad2.css.map",
-    "main.75219b8d.js.map": "/sanjanasethiya_react_profile/static/js/main.75219b8d.js.map"
+    "main.783debc6.css.map": "/sanjanasethiya_react_profile/static/css/main.783debc6.css.map",
+    "main.d31c854c.js.map": "/sanjanasethiya_react_profile/static/js/main.d31c854c.js.map"
   },
   "entrypoints": [
-    "static/css/main.e6c13ad2.css",
-    "static/js/main.75219b8d.js"
+    "static/css/main.783debc6.css",
+    "static/js/main.d31c854c.js"
   ]
 }
